@@ -6,8 +6,7 @@ var donordetailsroute = require("./router/donordetailsroute");
 var needydetailsroute = require("./router/needydetailsroute");
 const verifyAadhaar = require("./router/verify-aadhaar");
 const otpRoutes = require("./router/otpRoutes"); 
-const twilio = require("twilio");
-const otpRoutesmob = require("./router/otpRoutesmob");
+
 const resetRoute = require('./router/resetRoute');
 const medicineformrouter = require('./router/medicineformrouter');
 const equipmentformrouter = require('./router/equipmentformrouter');
@@ -53,7 +52,7 @@ app.use("/donor", donordetailsroute);
 app.use("/needy", needydetailsroute);
 
 app.use("/otp", otpRoutes);
-app.use("/otpmobile", otpRoutesmob);
+
 app.use('/reset', resetRoute);
 app.use('/medicine', medicineformrouter);
 app.use('/equipment', equipmentformrouter);

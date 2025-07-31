@@ -1,9 +1,9 @@
 const twilio = require("twilio");
 
 // ✅ Twilio credentials (keep safe in production)
-const TWILIO_ACCOUNT_SID = "AC729732acf890199fab072e0326e9580b";
-const TWILIO_AUTH_TOKEN = "57283f338a1bbdbd3f71fcef5adbebde";
-const VERIFY_SERVICE_SID = "VAc468a7a2da4c10b500256ba09a399878";
+const TWILIO_ACCOUNT_SID = (process.env.TWILIO_ACCOUNT_SID);
+const TWILIO_AUTH_TOKEN = (process.env.TWILIO_AUTH_TOKEN);
+const VERIFY_SERVICE_SID = (process.env.VERIFY_SERVICE_SID);
 
 const client = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
