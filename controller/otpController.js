@@ -37,7 +37,7 @@ exports.sendOTP = async (req, res) => {
   <p>Thank you for using Email OTP!</p>
 
   <p style="text-align: center; font-size: 12px; color: #888; margin-top: 30px;">
-    © <a href="https://www.rohitchouhan.com" target="_blank" style="color: #1a73e8; text-decoration: none;">www.rohitchouhan.com</a>. All rights reserved.
+    © <a href="https://AushLink" target="_blank" style="color: #1a73e8; text-decoration: none;">AushLink</a>. All rights reserved.
   </p>
 </div>
 `,
